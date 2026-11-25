@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "process_path_regex": [
+        "(?i)^E:\\\\Program Files \\(x86\\)\\\\Steam\\\\",
+        "(?i)^D:\\\\SteamLibrary\\\\steamapps\\\\common\\\\",
+        "(?i)^C:\\\\Program Files \\(x86\\)\\\\Common Files\\\\Steam\\\\steamservice\\.exe$"
+      ]
+    }
+  ]
+}
