@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "process_name": ["steam.exe", "steamwebhelper.exe", "steamservice.exe", "steamerrorreporter.exe", "steamerrorreporter64.exe"]
+    },
+    {
+      "process_path_regex": ["(?i)^[A-Z]:\\\\(?:[^\\\\]+\\\\)*steamapps\\\\common\\\\"]
+    }
+  ]
+}
